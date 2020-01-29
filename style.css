@@ -20,6 +20,10 @@ h1{
   font-size: 36px;
 }
 
+p{
+  text-align: center;
+}
+
 /*all the divs css*/
 
 @media (max-width: 400px) {
@@ -35,6 +39,10 @@ h1{
   border-radius: 4px;
   box-shadow: 0px 10px 30px rgba(0,0,0,.2);
   margin: 30px;
+}
+
+.text-justify{
+  text-align: justify;
 }
 
 .list-inline{
@@ -85,3 +93,4 @@ h1{
   border-color: #8884FF;
   color: #8884FF;
 }
+
