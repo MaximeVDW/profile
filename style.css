@@ -29,12 +29,14 @@ h1{
   }
 }
 
-.parts{
-  background: white;
-  padding: 30px;
-  border-radius: 4px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,.2);
-  margin: 30px;
+@media (max-width: 200px) {
+  .parts{
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.2);
+    margin: 30px;
+  }
 }
 
 .list-inline{
@@ -57,10 +59,6 @@ h1{
   color: #2E4563;
 }
 
-.responsive{
-  width: 100%;
-  height: auto;
-}
 
 /*all the ids css*/
 
