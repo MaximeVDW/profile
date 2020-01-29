@@ -24,7 +24,7 @@ h1{
 
 @media (max-width: 400px) {
   .global-container{
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
   }
 }
