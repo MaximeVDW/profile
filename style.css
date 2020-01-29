@@ -35,10 +35,7 @@ h1{
   border-radius: 4px;
   box-shadow: 0px 10px 30px rgba(0,0,0,.2);
   margin: 30px;
-}
-
-.text-justify{
-  text-align: justify;
+  text-align: center;
 }
 
 .list-inline{
