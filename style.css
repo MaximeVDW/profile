@@ -1,0 +1,91 @@
+body{
+  background-color: rgb(245, 245, 245);
+  font-family: font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #476C9B;
+  text-align: center;
+}
+
+header{
+  font-family: font-family: 'Roboto Condensed', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  color: #9EE493;
+  text-align: center;
+}
+
+h1{
+  padding: 20px;
+  font-size: 36px;
+}
+
+/*all the divs css*/
+
+@media (max-width: 400px) {
+  .global-container{
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.parts{
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.2);
+  margin: 30px;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.list-inline{
+  padding: 0px;
+}
+
+.list-inline>li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.social-tag{
+  color: rgb(200, 200, 200);
+}
+
+.social-tag:hover{
+  color: #2E4563;
+}
+
+/*all the ids css*/
+
+#image-circle{
+  width: 200px;
+  border-radius: 50%;
+}
+
+#img-round{
+  border-radius: 10px;
+}
+
+#medium-link{
+  text-decoration: none;
+  background: #8884FF;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  margin: 10px;
+  border: 1px transparent;
+  color: white;
+}
+
+#medium-link:hover{
+  background: white;
+  border: 5px;
+  border-color: #8884FF;
+  color: #8884FF;
+}
